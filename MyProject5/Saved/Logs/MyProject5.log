@@ -1,0 +1,710 @@
+﻿[2015.12.18-16.51.08:574][  0]Log file open, 12/18/15 08:51:08
+[2015.12.18-16.51.08:574][  0]LogInit:Display: Running engine for game: MyProject5
+[2015.12.18-16.51.08:574][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.18-16.51.08:574][  0]LogInit:Display: RandInit(-1537244664) SRandInit(-1537244662).
+[2015.12.18-16.51.08:574][  0]LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+[2015.12.18-16.51.08:574][  0]LogStats: Stats thread started at 0.088055
+[2015.12.18-16.51.08:574][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.18-16.51.08:574][  0]LogInit: API Version: 2758231
+[2015.12.18-16.51.08:574][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.12.18-16.51.08:574][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.18-16.51.08:574][  0]LogInit: Build Configuration: Development
+[2015.12.18-16.51.08:574][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.18-16.51.08:574][  0]LogInit: Command line: 
+[2015.12.18-16.51.08:574][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.18-16.51.08:574][  0]LogInit: Rocket: 1
+[2015.12.18-16.51.08:593][  0]LogInit: Using libcurl 7.41.0
+[2015.12.18-16.51.08:593][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.18-16.51.08:593][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.18-16.51.08:593][  0]LogInit:  - other features:
+[2015.12.18-16.51.08:593][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.18-16.51.08:593][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.18-16.51.08:593][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.18-16.51.08:593][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.18-16.51.08:593][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.18-16.51.08:593][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.18-16.51.08:593][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.18-16.51.08:593][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.18-16.51.08:593][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.18-16.51.08:593][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.18-16.51.08:602][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.18-16.51.08:611][  0]LogInit: Object subsystem initialized
+[2015.12.18-16.51.08:612][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.18-16.51.08:612][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.18-16.51.08:626][  0]LogInit: Computer: DESKTOP-B87MP3I
+[2015.12.18-16.51.08:626][  0]LogInit: User: 3DJoe
+[2015.12.18-16.51.08:626][  0]LogInit: CPU Page size=4096, Cores=3
+[2015.12.18-16.51.08:626][  0]LogInit: High frequency timer resolution =3.433149 MHz
+[2015.12.18-16.51.08:626][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.12.18-16.51.08:626][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.18-16.51.08:626][  0]LogMemory: Process Physical Memory: 56.10 MB used, 56.10 MB peak
+[2015.12.18-16.51.08:626][  0]LogMemory: Process Virtual Memory: 55.78 MB used, 55.78 MB peak
+[2015.12.18-16.51.08:626][  0]LogMemory: Physical Memory: 4356.76 MB used, 8173.54 MB total
+[2015.12.18-16.51.08:626][  0]LogMemory: Virtual Memory: 381.35 MB used, 134217728.00 MB total
+[2015.12.18-16.51.08:668][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.18-16.51.09:234][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2015.12.18-16.51.09:234][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 4086MB of shared system memory, 2 output[s]
+[2015.12.18-16.51.09:236][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.18-16.51.09:236][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4086MB of shared system memory, 0 output[s]
+[2015.12.18-16.51.09:236][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.18-16.51.09:242][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.18-16.51.09:242][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.18-16.51.09:263][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.18-16.51.09:280][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Intermediate/Shaders/WorkingDirectory/9400/).
+[2015.12.18-16.51.09:280][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/3DJoe/AppData/Local/Temp/UnrealShaderWorkingDir/653675774F1F71EFE9396F8A8FD33CA5/'.
+[2015.12.18-16.51.09:280][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.18-16.51.10:591][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.18-16.51.10:598][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.18-16.51.10:605][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.18-16.51.10:613][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.18-16.51.10:619][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.18-16.51.10:624][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.18-16.51.10:628][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.18-16.51.10:631][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.18-16.51.10:636][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.18-16.51.10:641][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.18-16.51.10:646][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.18-16.51.10:655][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.18-16.51.10:655][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.18-16.51.10:656][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.18-16.51.10:675][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.18-16.51.10:678][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.18-16.51.10:682][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.18-16.51.10:690][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.18-16.51.10:690][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.18-16.51.10:813][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.18-16.51.11:519][  0]LogDerivedDataCache: Loaded boot cache 0.71s 41MB C:/Users/3DJoe/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.18-16.51.11:519][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/3DJoe/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.18-16.51.11:520][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.18-16.51.11:520][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.18-16.51.11:520][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.18-16.51.11:520][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.18-16.51.11:601][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.18-16.51.11:613][  0]LogDerivedDataCache: Using Local data cache path C:/Users/3DJoe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.18-16.51.11:864][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.18-16.51.11:869][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.18-16.51.12:016][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.18-16.51.12:016][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.18-16.51.12:494][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.18-16.51.25:152][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.18-16.51.25:442][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.12.18-16.51.25:680][  0]SourceControl: Info Source control is disabled
+[2015.12.18-16.51.25:681][  0]SourceControl: Info Source control is disabled
+[2015.12.18-16.51.25:705][  0]SourceControl: Info Source control is disabled
+[2015.12.18-16.51.25:728][  0]SourceControl: Info Source control is disabled
+[2015.12.18-16.51.26:301][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.18-16.51.26:301][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2015.12.18-16.51.26:380][  0]LogEngine: Initializing Engine...
+[2015.12.18-16.51.26:384][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.18-16.51.26:385][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.18-16.51.26:532][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.18-16.51.26:541][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.18-16.51.26:554][  0]LogInit: FAudioDevice initialized.
+[2015.12.18-16.51.26:600][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/3DJoe/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.18-16.51.26:616][  0]LogInit: Texture streaming: Enabled
+[2015.12.18-16.51.26:626][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.18-16.51.26:626][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.18-16.51.26:626][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 1a807d494f5b66ec1ec29184428bbc4c|db07f81b636248bea7701d154ca95474|e39d2392-a47f-464b-8725-f8b9ff408f2a
+[2015.12.18-16.51.26:626][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.18-16.51.26:703][  0]LogInit: Transaction tracking system initialized
+[2015.12.18-16.51.26:746][  0]BlueprintLog: New page: Editor Load
+[2015.12.18-16.51.26:912][  0]LocalizationService: Info Localization service is disabled
+[2015.12.18-16.51.27:069][  0]LogConsoleResponse:Display: 
+[2015.12.18-16.51.27:292][  0]LogFileCache: Scanning file cache for directory 'C:/Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/' took 0.03s
+[2015.12.18-16.51.27:292][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.18-16.51.27:468][  0]SourceControl: Info Source control is disabled
+[2015.12.18-16.51.27:468][  0]Cmd: MAP LOAD FILE="../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.18-16.51.27:609][  0]LightingResults: New page: Lighting Build
+[2015.12.18-16.51.27:613][  0]MapCheck: New page: Map Check
+[2015.12.18-16.51.27:613][  0]LightingResults: New page: Lighting Build
+[2015.12.18-16.51.27:635][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000226796B7420
+[2015.12.18-16.51.30:989][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.12.18-16.51.31:244][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.18-16.51.31:270][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.18-16.51.31:350][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.233ms to complete.
+[2015.12.18-16.51.31:350][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.882
+[2015.12.18-16.51.32:071][  0]LogCollectionManager: Loaded 0 collections in 0.004232 seconds
+[2015.12.18-16.51.32:184][  0]LogFileCache: Scanning file cache for directory 'C:/Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Collections/' took 0.01s
+[2015.12.18-16.51.32:184][  0]LogFileCache: Scanning file cache for directory 'C:/Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/Developers/3DJoe/Collections/' took 0.01s
+[2015.12.18-16.51.32:184][  0]LogFileCache: Scanning file cache for directory 'C:/Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/Collections/' took 0.01s
+[2015.12.18-16.51.32:184][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.12.18-16.51.32:197][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 1893 classes and 338 folders.
+[2015.12.18-16.51.32:290][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.12.18-16.51.33:085][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.12.18-16.51.33:179][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.12.18-16.51.33:993][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.18-16.51.34:122][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.18-16.51.34:164][  0]LogLoad: Full Startup: 26.27 seconds (BP compile: 0.40 seconds)
+[2015.12.18-16.51.34:177][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.18-16.51.34:674][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.18-16.51.35:380][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2015.12.18-16.51.36:637][  4]LogAssetRegistry: Asset discovery search completed in 11.2058 seconds
+[2015.12.18-16.51.36:637][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.18-16.51.36:637][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2015.12.18-16.51.41:532][452]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.18-16.51.42:330][452]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0086 seconds. Added 107 classes and 0 folders.
+[2015.12.18-16.51.42:811][452]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.12.18-16.51.43:217][452]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2015.12.18-16.51.44:114][452]LogActor:Warning: GameNetworkManager /Engine/Transient.World_10:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.18-16.52.44:711][ 95]LogRenderer: Reallocating scene render targets to support 1208x696 (Frame:4061).
+[2015.12.18-17.01.55:745][ 71]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-17.04.39:535][362]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002263C35A700
+[2015.12.18-17.04.39:537][362]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002263C4105E0
+[2015.12.18-17.04.39:549][362]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.072
+[2015.12.18-17.04.39:588][362]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Character/MyCharacter] ([1] browsable assets)...
+[2015.12.18-17.04.39:630][362]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Character/MyCharacter.MyCharacter]
+[2015.12.18-17.04.39:630][362]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/MyCharacter]
+[2015.12.18-17.04.39:843][362]LogSavePackage: Save=143.728394ms
+[2015.12.18-17.04.39:843][362]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/MyCharacter_Auto1CF3F418448B29C07F7FE528048FE6189.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/MyCharacter_Auto1.uasset'
+[2015.12.18-17.04.39:844][362]LogSavePackage: Total save time: 206.754789ms
+[2015.12.18-17.04.39:844][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/MyCharacter_Auto1.uasset
+[2015.12.18-17.04.39:844][362]LogFileHelpers: Auto-saving content packages took 0.294
+[2015.12.18-17.05.24:639][745]BlueprintLog: New page: Compile MyCharacter
+[2015.12.18-17.05.25:007][745]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-17.05.25:066][745]BlueprintEditorCompileResults: Info [0857.16] Compile of MyCharacter successful! [in 419 ms]
+[2015.12.18-17.06.09:921][598]BlueprintLog: New page: Compile MyCharacter
+[2015.12.18-17.06.10:028][598]BlueprintEditorCompileResults: Info [0902.13] Compile of MyCharacter successful! [in 106 ms]
+[2015.12.18-17.06.12:673][803]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-17.06.12:673][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.18-17.06.12:699][803]PIE: New page: PIE session: Minimal_Default (Dec 18, 2015, 1:06:12 AM)
+[2015.12.18-17.06.12:713][803]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.12.18-17.06.12:852][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138027s)
+[2015.12.18-17.06.12:855][803]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.12.18-17.06.12:855][803]LogPlayLevel: PIE: World Init took: (0.003858s)
+[2015.12.18-17.06.12:857][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.143354s)
+[2015.12.18-17.06.12:948][803]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.18-17.06.12:960][803]LogInit: FAudioDevice initialized.
+[2015.12.18-17.06.13:108][803]LogWorld: Game class is 'MyGame_C'
+[2015.12.18-17.06.13:113][803]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.12.18-09.06.13
+[2015.12.18-17.06.13:113][803]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.18-17.06.13:114][803]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.18-17.06.13:129][803]LogWorld: Bringing up level for play took: 0.020173
+[2015.12.18-17.06.13:292][803]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.172
+[2015.12.18-17.06.13:292][803]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-17.07.13:573][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-17.07.13:672][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-17.07.13:753][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002266E676480
+[2015.12.18-17.07.21:033][119]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_29.EdGraphPin_23633''
+[2015.12.18-17.08.18:949][692]BlueprintLog: New page: Compile MyCharacter
+[2015.12.18-17.08.19:064][692]BlueprintEditorCompileResults: Info [1031.17] Compile of MyCharacter successful! [in 115 ms]
+[2015.12.18-17.08.24:611][126]BlueprintLog: New page: Compile MyCharacter
+[2015.12.18-17.08.24:720][126]BlueprintEditorCompileResults: Info [1036.82] Compile of MyCharacter successful! [in 109 ms]
+[2015.12.18-17.09.28:700][227]LogSavePackage: Save=91.485977ms
+[2015.12.18-17.09.28:700][227]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/MyCharacter4521E41B4561D5713B5336B0EA5EEBAF.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.12.18-17.09.28:704][227]LogSavePackage: Total save time: 99.464953ms
+[2015.12.18-17.09.28:704][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/MyCharacter.uasset
+[2015.12.18-17.09.28:707][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-17.09.29:003][227]LogSavePackage: Save=192.369156ms
+[2015.12.18-17.09.29:003][227]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/UEDPCMinimal_Default09FE7C0749DC047A74D5E38BA1BB1850.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap'
+[2015.12.18-17.09.29:005][227]LogSavePackage: Total save time: 217.284482ms
+[2015.12.18-17.09.29:005][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap
+[2015.12.18-17.12.46:996][ 54]BlueprintLog: New page: Compile MyCharacter
+[2015.12.18-17.12.47:120][ 54]BlueprintEditorCompileResults: Info [1299.22] Compile of MyCharacter successful! [in 123 ms]
+[2015.12.18-17.12.47:709][ 86]LogSavePackage: Save=99.281448ms
+[2015.12.18-17.12.47:709][ 86]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/MyCharacterE16C4A2543A57FC3F201048E936824F0.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.12.18-17.12.47:712][ 86]LogSavePackage: Total save time: 110.722255ms
+[2015.12.18-17.12.47:712][ 86]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/MyCharacter.uasset
+[2015.12.18-17.12.49:143][190]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-17.12.49:374][190]LogSavePackage: Save=137.824493ms
+[2015.12.18-17.12.49:374][190]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/UEDPCMinimal_DefaultDAC5DC04407B1C8A9E6377A9553BCAF8.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap'
+[2015.12.18-17.12.49:375][190]LogSavePackage: Total save time: 142.612223ms
+[2015.12.18-17.12.49:375][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap
+[2015.12.18-17.13.41:311][299]BlueprintLog: New page: Compile MyCharacter
+[2015.12.18-17.13.41:434][299]BlueprintEditorCompileResults: Info [1353.54] Compile of MyCharacter successful! [in 122 ms]
+[2015.12.18-17.13.42:540][358]LogSavePackage: Save=100.411316ms
+[2015.12.18-17.13.42:540][358]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/MyCharacter3D817A3C4F914BF2E0EE2FAF7FA01AC2.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.12.18-17.13.42:543][358]LogSavePackage: Total save time: 107.332945ms
+[2015.12.18-17.13.42:543][358]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/MyCharacter.uasset
+[2015.12.18-17.31.39:122][553]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-17.31.39:367][553]LogSavePackage: Save=139.390976ms
+[2015.12.18-17.31.39:367][553]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/UEDPCMinimal_Default1DA0BD5547B5D8C45B70F4958E2468A4.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap'
+[2015.12.18-17.31.39:368][553]LogSavePackage: Total save time: 151.955247ms
+[2015.12.18-17.31.39:368][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap
+[2015.12.18-17.34.09:201][919]LogRenderer: Reallocating scene render targets to support 1208x732 (Frame:92114).
+[2015.12.18-17.34.09:201][919]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.12.18-17.36.01:941][154]LogSavePackage: Save=28.762806ms
+[2015.12.18-17.36.01:941][154]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Idle59198E854C5F98468F1DD0BFCD2EE9FF.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/Animations/Idle.uasset'
+[2015.12.18-17.36.01:943][154]LogSavePackage: Total save time: 38.492940ms
+[2015.12.18-17.36.01:943][154]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/Animations/Idle.uasset
+[2015.12.18-17.37.09:229][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-17.37.09:267][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002268FD23600
+[2015.12.18-17.37.09:267][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022633BA8A40
+[2015.12.18-17.37.09:268][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022693838A40
+[2015.12.18-17.37.09:269][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000226B029B060
+[2015.12.18-17.37.09:270][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000226B0285BC0
+[2015.12.18-17.37.09:271][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002268FD33060
+[2015.12.18-17.37.09:272][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002264F1F02C0
+[2015.12.18-17.37.09:273][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000226B055A160
+[2015.12.18-17.37.09:276][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002263C4107C0
+[2015.12.18-17.37.09:282][359]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.053
+[2015.12.18-17.37.09:289][359]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Character/HeroTPP_Skeleton] ([1] browsable assets)...
+[2015.12.18-17.37.09:289][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/HeroTPP_Skeleton]
+[2015.12.18-17.37.09:320][359]LogSavePackage: Save=21.872921ms
+[2015.12.18-17.37.09:321][359]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/HeroTPP_Skeleton_Auto2C45173674971B0ACCF5BFFAE32B172B4.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/HeroTPP_Skeleton_Auto2.uasset'
+[2015.12.18-17.37.09:322][359]LogSavePackage: Total save time: 30.898746ms
+[2015.12.18-17.37.09:322][359]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/HeroTPP_Skeleton_Auto2.uasset
+[2015.12.18-17.37.09:322][359]LogFileHelpers: Auto-saving content packages took 0.039
+[2015.12.18-17.37.48:291][ 89]LogSavePackage: Save=14.570297ms
+[2015.12.18-17.37.48:291][ 89]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/PunchingMontage2740583242E66E5E0B217B9FF1F76F68.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/PunchingMontage.uasset'
+[2015.12.18-17.37.48:294][ 89]LogSavePackage: Total save time: 17.345008ms
+[2015.12.18-17.37.48:294][ 89]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/PunchingMontage.uasset
+[2015.12.18-17.37.48:350][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-17.37.48:427][ 89]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002268FD15B20
+[2015.12.18-17.37.48:466][ 89]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/StarterContent/Character/NewAnimMontage.NewAnimMontage'
+[2015.12.18-17.37.57:651][664]LogSavePackage: Save=5.131441ms
+[2015.12.18-17.37.57:651][664]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/PunchingMontage6C642C5D4EC10A9F91833082169E9ADA.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/PunchingMontage.uasset'
+[2015.12.18-17.37.57:652][664]LogSavePackage: Total save time: 13.629466ms
+[2015.12.18-17.37.57:652][664]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/PunchingMontage.uasset
+[2015.12.18-17.40.44:185][456]LogSavePackage: Save=5.539521ms
+[2015.12.18-17.40.44:185][456]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/PunchingMontage0D63F8C0463287D59E431BA7F1E8FD84.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/PunchingMontage.uasset'
+[2015.12.18-17.40.44:187][456]LogSavePackage: Total save time: 10.287058ms
+[2015.12.18-17.40.44:187][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/PunchingMontage.uasset
+[2015.12.18-17.43.00:591][158]LogEditorTransaction: Undo Add Segment
+[2015.12.18-17.43.17:808][297]LogEditorTransaction: Undo Add Segment
+[2015.12.18-17.43.18:283][324]LogEditorTransaction: Undo Add Segment
+[2015.12.18-17.51.27:373][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000226344EB880
+[2015.12.18-17.51.27:373][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002264E82B740
+[2015.12.18-17.51.27:374][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002264F1F1D00
+[2015.12.18-17.51.27:375][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002268FD16340
+[2015.12.18-17.51.27:376][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002264F1F3CE0
+[2015.12.18-17.51.27:378][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002264F1F0A40
+[2015.12.18-17.51.27:380][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000226B02860C0
+[2015.12.18-17.51.27:381][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002268FD15E40
+[2015.12.18-17.51.27:386][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002268FD2D3A0
+[2015.12.18-17.51.27:386][ 66]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.051
+[2015.12.18-17.51.27:392][ 66]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Character/HeroTPP_Skeleton] ([1] browsable assets)...
+[2015.12.18-17.51.27:392][ 66]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/HeroTPP_Skeleton]
+[2015.12.18-17.51.27:407][ 66]LogSavePackage: Save=5.057747ms
+[2015.12.18-17.51.27:407][ 66]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/HeroTPP_Skeleton_Auto342E9E17248248841C355E6919ACCDA52.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/HeroTPP_Skeleton_Auto3.uasset'
+[2015.12.18-17.51.27:408][ 66]LogSavePackage: Total save time: 14.460195ms
+[2015.12.18-17.51.27:408][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/HeroTPP_Skeleton_Auto3.uasset
+[2015.12.18-17.51.27:418][ 66]LogSavePackage: Save=3.677673ms
+[2015.12.18-17.51.27:418][ 66]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/NewAnimMontage_Auto32F1A9A744F9716CC60E7D49AD920A255.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/NewAnimMontage_Auto3.uasset'
+[2015.12.18-17.51.27:420][ 66]LogSavePackage: Total save time: 5.194359ms
+[2015.12.18-17.51.27:420][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/NewAnimMontage_Auto3.uasset
+[2015.12.18-17.51.27:424][ 66]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Character/PunchingMontage] ([1] browsable assets)...
+[2015.12.18-17.51.27:443][ 66]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/StarterContent/Character/PunchingMontage.PunchingMontage]
+[2015.12.18-17.51.27:443][ 66]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/PunchingMontage]
+[2015.12.18-17.51.27:467][ 66]LogSavePackage: Save=14.926821ms
+[2015.12.18-17.51.27:467][ 66]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/PunchingMontage_Auto3BA2B34214ED7033C737E1D945A0E09F8.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/PunchingMontage_Auto3.uasset'
+[2015.12.18-17.51.27:468][ 66]LogSavePackage: Total save time: 23.531165ms
+[2015.12.18-17.51.27:468][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/PunchingMontage_Auto3.uasset
+[2015.12.18-17.51.27:468][ 66]LogFileHelpers: Auto-saving content packages took 0.081
+[2015.12.18-17.55.51:754][568]LogAnimation:Warning: JumpToSectionName None bEndOfSection: 0 failed for Montage PunchingMontage
+[2015.12.18-18.01.27:943][565]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-18.01.27:983][565]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.040
+[2015.12.18-18.01.27:989][565]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Character/HeroTPP_Skeleton] ([1] browsable assets)...
+[2015.12.18-18.01.27:989][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/HeroTPP_Skeleton]
+[2015.12.18-18.01.28:002][565]LogSavePackage: Save=4.715496ms
+[2015.12.18-18.01.28:002][565]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/HeroTPP_Skeleton_Auto4ED6888364E42003E31004BA668BD39C9.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/HeroTPP_Skeleton_Auto4.uasset'
+[2015.12.18-18.01.28:003][565]LogSavePackage: Total save time: 13.204496ms
+[2015.12.18-18.01.28:003][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/HeroTPP_Skeleton_Auto4.uasset
+[2015.12.18-18.01.28:008][565]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Character/PunchingMontage] ([1] browsable assets)...
+[2015.12.18-18.01.28:008][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/PunchingMontage]
+[2015.12.18-18.01.28:022][565]LogSavePackage: Save=5.270089ms
+[2015.12.18-18.01.28:022][565]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/PunchingMontage_Auto40975C8054A8AA59292BF55BAD8850419.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/PunchingMontage_Auto4.uasset'
+[2015.12.18-18.01.28:023][565]LogSavePackage: Total save time: 14.067259ms
+[2015.12.18-18.01.28:023][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/PunchingMontage_Auto4.uasset
+[2015.12.18-18.01.28:023][565]LogFileHelpers: Auto-saving content packages took 0.040
+[2015.12.18-18.06.34:083][595]LogSavePackage: Save=6.704923ms
+[2015.12.18-18.06.34:083][595]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/PunchingMontage95A84C4A4F74DA1E262EEE8C783DD71C.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/PunchingMontage.uasset'
+[2015.12.18-18.06.34:089][595]LogSavePackage: Total save time: 20.873256ms
+[2015.12.18-18.06.34:089][595]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/PunchingMontage.uasset
+[2015.12.18-18.06.36:232][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Character/MyGame" FILE="../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/MyGame.uasset" SILENT=true
+[2015.12.18-18.06.36:259][794]LogSavePackage: Save=17.451035ms
+[2015.12.18-18.06.36:259][794]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/MyGame622B7FB745AB1044EA199380FFD5308F.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/MyGame.uasset'
+[2015.12.18-18.06.36:261][794]LogSavePackage: Total save time: 26.672889ms
+[2015.12.18-18.06.36:261][794]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/MyGame.uasset
+[2015.12.18-18.07.13:885][110]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-18.07.13:923][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022696F6F2E0
+[2015.12.18-18.07.14:104][110]LogSavePackage: Save=165.163528ms
+[2015.12.18-18.07.14:104][110]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Minimal_Default0368806241DDE793309382A33B9DF574.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.12.18-18.07.14:106][110]LogSavePackage: Total save time: 178.563468ms
+[2015.12.18-18.07.14:106][110]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Maps/Minimal_Default.umap
+[2015.12.18-18.07.44:103][267]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-18.07.59:805][481]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.18-18.08.10:196][331]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.18-18.08.45:989][190]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.18-18.09.10:135][211]BlueprintLog: New page: Compile MyCharacter
+[2015.12.18-18.09.10:229][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.12.18-18.09.10:287][211]BlueprintEditorCompileResults: Info [4682.39] Compile of MyCharacter successful! [in 152 ms]
+[2015.12.18-18.09.10:918][248]LogSavePackage: Save=103.016212ms
+[2015.12.18-18.09.10:918][248]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/MyCharacter5A7D5D114DAEF58F3207F3B33E4E77E7.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.12.18-18.09.10:921][248]LogSavePackage: Total save time: 115.438625ms
+[2015.12.18-18.09.10:921][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/MyCharacter.uasset
+[2015.12.18-18.11.57:667][745]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.12.18-18.11.57:821][745]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-18.11.57:863][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000226A4457E20
+[2015.12.18-18.11.57:875][745]BlueprintEditorCompileResults: Info [4849.98] Compile of CharacterAnimBP successful! [in 208 ms]
+[2015.12.18-18.12.00:173][892]LogSavePackage: Save=82.791046ms
+[2015.12.18-18.12.00:174][892]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/CharacterAnimBP786DBA4840BA91C8D2661A935710EBAF.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/CharacterAnimBP.uasset'
+[2015.12.18-18.12.00:177][892]LogSavePackage: Total save time: 97.559702ms
+[2015.12.18-18.12.00:177][892]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/CharacterAnimBP.uasset
+[2015.12.18-18.12.49:910][292]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.12.18-18.12.50:068][292]BlueprintEditorCompileResults: Info [4902.17] Compile of CharacterAnimBP successful! [in 157 ms]
+[2015.12.18-18.12.50:681][322]LogSavePackage: Save=83.455452ms
+[2015.12.18-18.12.50:681][322]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/CharacterAnimBP2ACD37464A2800C82CD86BACD97BB96D.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/CharacterAnimBP.uasset'
+[2015.12.18-18.12.50:684][322]LogSavePackage: Total save time: 91.639195ms
+[2015.12.18-18.12.50:684][322]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/CharacterAnimBP.uasset
+[2015.12.18-18.15.04:809][119]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.12.18-18.15.57:853][783]LogSavePackage: Save=15.883668ms
+[2015.12.18-18.15.57:853][783]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/PunchingMontageC7D6881F44E68269A8A7D08DC3AE7AAF.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/PunchingMontage.uasset'
+[2015.12.18-18.15.57:856][783]LogSavePackage: Total save time: 27.175345ms
+[2015.12.18-18.15.57:856][783]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/PunchingMontage.uasset
+[2015.12.18-18.15.57:876][783]LogSavePackage: Save=6.643464ms
+[2015.12.18-18.15.57:876][783]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/PunchingMontageF66B1D084FB88FB9B08D68A4A6ECD345.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/PunchingMontage.uasset'
+[2015.12.18-18.15.57:877][783]LogSavePackage: Total save time: 12.750104ms
+[2015.12.18-18.15.57:877][783]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/PunchingMontage.uasset
+[2015.12.18-18.17.59:726][287]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.12.18-18.17.59:952][287]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022705239DA0
+[2015.12.18-18.17.59:955][287]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000226484F2520
+[2015.12.18-18.17.59:968][287]BlueprintEditorCompileResults: Info [5212.07] Compile of CharacterAnimBP successful! [in 241 ms]
+[2015.12.18-18.18.36:153][931]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.12.18-18.18.36:308][931]BlueprintEditorCompileResults: Info [5248.41] Compile of CharacterAnimBP successful! [in 155 ms]
+[2015.12.18-18.18.45:420][465]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.18.45:420][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.18-18.18.45:420][465]PIE: New page: PIE session: Minimal_Default (Dec 18, 2015, 2:18:45 AM)
+[2015.12.18-18.18.45:420][465]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.12.18-18.18.45:450][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029557s)
+[2015.12.18-18.18.45:451][465]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.12.18-18.18.45:451][465]LogPlayLevel: PIE: World Init took: (0.001726s)
+[2015.12.18-18.18.45:452][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.031571s)
+[2015.12.18-18.18.45:495][465]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.18-18.18.45:506][465]LogInit: FAudioDevice initialized.
+[2015.12.18-18.18.45:540][465]LogWorld: Game class is 'MyGame_C'
+[2015.12.18-18.18.45:545][465]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.12.18-10.18.45
+[2015.12.18-18.18.45:545][465]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.18-18.18.45:545][465]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.18-18.18.45:545][465]LogWorld: Bringing up level for play took: 0.003433
+[2015.12.18-18.18.45:548][465]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.572
+[2015.12.18-18.18.45:548][465]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.18.52:602][931]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.18.52:641][931]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.18.52:706][932]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022700CD5DA0
+[2015.12.18-18.19.01:174][545]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.19.01:175][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.18-18.19.01:175][545]PIE: New page: PIE session: Minimal_Default (Dec 18, 2015, 2:19:01 AM)
+[2015.12.18-18.19.01:175][545]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.12.18-18.19.01:186][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011277s)
+[2015.12.18-18.19.01:187][545]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.12.18-18.19.01:188][545]LogPlayLevel: PIE: World Init took: (0.001704s)
+[2015.12.18-18.19.01:188][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013258s)
+[2015.12.18-18.19.01:232][545]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.18-18.19.01:241][545]LogInit: FAudioDevice initialized.
+[2015.12.18-18.19.01:275][545]LogWorld: Game class is 'MyGame_C'
+[2015.12.18-18.19.01:279][545]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.12.18-10.19.01
+[2015.12.18-18.19.01:279][545]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.18-18.19.01:279][545]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.18-18.19.01:279][545]LogWorld: Bringing up level for play took: 0.003044
+[2015.12.18-18.19.01:282][545]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.838
+[2015.12.18-18.19.01:282][545]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.19.10:217][125]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.19.10:251][125]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.19.10:321][126]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000226A15B3A60
+[2015.12.18-18.19.31:638][571]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.19.31:638][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.18-18.19.31:638][571]PIE: New page: PIE session: Minimal_Default (Dec 18, 2015, 2:19:31 AM)
+[2015.12.18-18.19.31:638][571]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.12.18-18.19.31:647][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008587s)
+[2015.12.18-18.19.31:648][571]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.12.18-18.19.31:648][571]LogPlayLevel: PIE: World Init took: (0.001474s)
+[2015.12.18-18.19.31:649][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010339s)
+[2015.12.18-18.19.31:691][571]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.18-18.19.31:699][571]LogInit: FAudioDevice initialized.
+[2015.12.18-18.19.31:731][571]LogWorld: Game class is 'MyGame_C'
+[2015.12.18-18.19.31:735][571]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.12.18-10.19.31
+[2015.12.18-18.19.31:735][571]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.18-18.19.31:735][571]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.18-18.19.31:735][571]LogWorld: Bringing up level for play took: 0.003148
+[2015.12.18-18.19.31:739][571]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.382
+[2015.12.18-18.19.31:739][571]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.20.35:998][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.20.36:038][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.20.36:119][591]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022608A762A0
+[2015.12.18-18.21.05:252][624]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.038
+[2015.12.18-18.21.05:258][624]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Character/CharacterAnimBP] ([1] browsable assets)...
+[2015.12.18-18.21.05:276][624]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/StarterContent/Character/CharacterAnimBP.CharacterAnimBP]
+[2015.12.18-18.21.05:277][624]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/CharacterAnimBP]
+[2015.12.18-18.21.05:386][624]LogSavePackage: Save=96.493629ms
+[2015.12.18-18.21.05:386][624]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/CharacterAnimBP_Auto567F92EA645FBE97419214BB6549B153F.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/CharacterAnimBP_Auto5.uasset'
+[2015.12.18-18.21.05:388][624]LogSavePackage: Total save time: 109.609865ms
+[2015.12.18-18.21.05:388][624]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/Autosaves/Game/StarterContent/Character/CharacterAnimBP_Auto5.uasset
+[2015.12.18-18.21.05:388][624]LogFileHelpers: Auto-saving content packages took 0.135
+[2015.12.18-18.21.10:322][952]LogSavePackage: Save=85.774895ms
+[2015.12.18-18.21.10:322][952]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/CharacterAnimBP0EB1690F42CA56249BE2639583062CA3.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/CharacterAnimBP.uasset'
+[2015.12.18-18.21.10:326][952]LogSavePackage: Total save time: 93.581144ms
+[2015.12.18-18.21.10:326][952]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/CharacterAnimBP.uasset
+[2015.12.18-18.21.11:337][ 10]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.12.18-18.21.14:848][235]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.12.18-18.21.16:193][325]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.12.18-18.22.37:318][355]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.12.18-18.22.37:473][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022707A00180
+[2015.12.18-18.22.37:476][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022706586840
+[2015.12.18-18.22.37:477][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022706587B00
+[2015.12.18-18.22.37:478][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022707928FE0
+[2015.12.18-18.22.37:479][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000227055860C0
+[2015.12.18-18.22.37:490][355]BlueprintEditorCompileResults: Info [5489.59] Compile of CharacterAnimBP successful! [in 171 ms]
+[2015.12.18-18.22.38:137][390]LogSavePackage: Save=96.961708ms
+[2015.12.18-18.22.38:137][390]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/CharacterAnimBP4AD072664E0E0AEFC8B2669A620D5911.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/CharacterAnimBP.uasset'
+[2015.12.18-18.22.38:140][390]LogSavePackage: Total save time: 104.927283ms
+[2015.12.18-18.22.38:140][390]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/CharacterAnimBP.uasset
+[2015.12.18-18.22.39:420][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.22.39:420][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.18-18.22.39:420][485]PIE: New page: PIE session: Minimal_Default (Dec 18, 2015, 2:22:39 AM)
+[2015.12.18-18.22.39:421][485]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.12.18-18.22.39:429][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008948s)
+[2015.12.18-18.22.39:431][485]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.12.18-18.22.39:431][485]LogPlayLevel: PIE: World Init took: (0.001384s)
+[2015.12.18-18.22.39:431][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010659s)
+[2015.12.18-18.22.39:477][485]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.18-18.22.39:487][485]LogInit: FAudioDevice initialized.
+[2015.12.18-18.22.39:523][485]LogWorld: Game class is 'MyGame_C'
+[2015.12.18-18.22.39:527][485]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.12.18-10.22.39
+[2015.12.18-18.22.39:527][485]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.18-18.22.39:527][485]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.18-18.22.39:528][485]LogWorld: Bringing up level for play took: 0.003381
+[2015.12.18-18.22.39:530][485]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.59
+[2015.12.18-18.22.39:530][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.22.48:513][112]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.22.48:547][112]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2015.12.18-18.22.48:587][112]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022705A40540
+[2015.12.18-18.25.52:658][803]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.12.18-18.25.52:973][803]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-18.25.53:023][803]BlueprintEditorCompileResults: Info [5685.13] Compile of CharacterAnimBP successful! [in 364 ms]
+[2015.12.18-18.30.06:714][800]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.18-18.30.08:304][800]LogSavePackage: Save=111.854744ms
+[2015.12.18-18.30.08:305][800]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/CharacterAnimBP68C5CE3D4D13DA64B08CA3AAB8959153.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/CharacterAnimBP.uasset'
+[2015.12.18-18.30.08:311][800]LogSavePackage: Total save time: 132.299531ms
+[2015.12.18-18.30.08:311][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/CharacterAnimBP.uasset
+[2015.12.18-18.30.08:344][800]LogSavePackage: Save=7.325636ms
+[2015.12.18-18.30.08:344][800]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/HeroTPP_SkeletonBA4B4F8B4C3FB9CB3842369B828954C0.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/HeroTPP_Skeleton.uasset'
+[2015.12.18-18.30.08:349][800]LogSavePackage: Total save time: 20.343132ms
+[2015.12.18-18.30.08:349][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/HeroTPP_Skeleton.uasset
+[2015.12.18-18.30.08:365][800]LogSavePackage: Save=4.207508ms
+[2015.12.18-18.30.08:365][800]LogSavePackage: Moving '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Saved/NewAnimMontage7D3C3C874852E0763416B59BB084ED2A.tmp' to '../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/NewAnimMontage.uasset'
+[2015.12.18-18.30.08:369][800]LogSavePackage: Total save time: 8.565314ms
+[2015.12.18-18.30.08:369][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/3DJoe/Documents/Unreal Projects/MyProject5/Content/StarterContent/Character/NewAnimMontage.uasset
+[2015.12.18-18.30.10:209][800]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.12.18-18.30.10:288][800]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.18-18.30.12:261][801]Cmd: QUIT_EDITOR
+[2015.12.18-18.30.12:904][801]LogExit: Preparing to exit.
+[2015.12.18-18.30.14:000][801]LogExit: Editor shut down
+[2015.12.18-18.30.14:002][801]LogExit: Transaction tracking system shut down
+[2015.12.18-18.30.14:009][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002266D242A20
+[2015.12.18-18.30.14:010][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022607F7EE80
+[2015.12.18-18.30.14:016][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022608A77D80
+[2015.12.18-18.30.14:016][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002260A13FB00
+[2015.12.18-18.30.14:016][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002260A0ABC40
+[2015.12.18-18.30.14:016][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002260A0ABA60
+[2015.12.18-18.30.14:016][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022607ECF380
+[2015.12.18-18.30.14:018][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022607ECEDE0
+[2015.12.18-18.30.14:020][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002268FD33B00
+[2015.12.18-18.30.14:024][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000226343EEE80
+[2015.12.18-18.30.14:028][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002264844A8E0
+[2015.12.18-18.30.14:032][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002270792BBA0
+[2015.12.18-18.30.14:395][801]LogExit: Object subsystem successfully closed.
+[2015.12.18-18.30.14:432][801]LogD3D11RHI: Shutdown
+[2015.12.18-18.30.14:432][801]LogD3D11RHI: CleanupD3DDevice
+[2015.12.18-18.30.14:569][801]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.18-18.30.14:592][801]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2015.12.18-18.30.14:592][801]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (200)
+[2015.12.18-18.30.14:592][801]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.12.18-18.30.14:592][801]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.12.18-18.30.14:592][801]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.18-18.30.14:592][801]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.18-18.30.14:592][801]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.18-18.30.14:749][801]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.18-18.30.14:877][801]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.18-18.30.14:877][801]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.18-18.30.14:877][801]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.18-18.30.14:877][801]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.18-18.30.14:877][801]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.18-18.30.14:878][801]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.18-18.30.15:818][801]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.18-18.30.15:819][801]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.18-18.30.15:819][801]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.18-18.30.15:819][801]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.18-18.30.15:819][801]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.18-18.30.15:819][801]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.18-18.30.15:819][801]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.18-18.30.15:819][801]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.18-18.30.15:819][801]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.18-18.30.15:819][801]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.18-18.30.15:820][801]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.18-18.30.15:820][801]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.18-18.30.15:820][801]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.18-18.30.15:820][801]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.18-18.30.15:820][801]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.18-18.30.15:820][801]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.18-18.30.15:820][801]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.18-18.30.15:820][801]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.18-18.30.15:820][801]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.18-18.30.15:821][801]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.18-18.30.15:821][801]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.18-18.30.15:821][801]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.18-18.30.15:821][801]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.18-18.30.15:821][801]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.18-18.30.15:821][801]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.18-18.30.15:821][801]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.18-18.30.15:823][801]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.18-18.30.15:823][801]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.18-18.30.15:823][801]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.18-18.30.15:823][801]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.18-18.30.15:823][801]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.18-18.30.15:823][801]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.18-18.30.15:823][801]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.18-18.30.15:823][801]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.18-18.30.15:844][801]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.18-18.30.15:844][801]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.18-18.30.15:844][801]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.18-18.30.15:844][801]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.18-18.30.15:844][801]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.18-18.30.15:844][801]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.18-18.30.15:844][801]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.18-18.30.15:844][801]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.18-18.30.15:876][801]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.18-18.30.15:876][801]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.18-18.30.15:876][801]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.18-18.30.15:876][801]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.18-18.30.15:876][801]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.18-18.30.15:876][801]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.18-18.30.15:876][801]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.18-18.30.15:876][801]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.18-18.30.15:876][801]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.18-18.30.15:909][801]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.18-18.30.15:909][801]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.18-18.30.15:909][801]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.18-18.30.15:909][801]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.18-18.30.15:909][801]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.18-18.30.15:909][801]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.18-18.30.15:909][801]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.18-18.30.15:910][801]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.18-18.30.15:910][801]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.18-18.30.15:910][801]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.18-18.30.15:910][801]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.18-18.30.15:910][801]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.18-18.30.15:910][801]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.18-18.30.15:910][801]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.18-18.30.15:910][801]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.18-18.30.15:912][801]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.18-18.30.15:916][801]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.18-18.30.16:086][801]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.18-18.30.16:088][801]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.18-18.30.16:088][801]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.18-18.30.16:189][801]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.18-18.30.16:189][801]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.18-18.30.16:189][801]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.18-18.30.16:193][801]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.18-18.30.16:193][801]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.18-18.30.16:194][801]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.18-18.30.16:197][801]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.18-18.30.16:198][801]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.18-18.30.16:198][801]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.18-18.30.16:198][801]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.18-18.30.16:198][801]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.18-18.30.16:198][801]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.18-18.30.16:198][801]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.18-18.30.16:198][801]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.18-18.30.16:198][801]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.18-18.30.16:198][801]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.18-18.30.16:217][801]LogDerivedDataCache: Shutdown
+[2015.12.18-18.30.16:217][801]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.18-18.30.16:217][801]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.18-18.30.16:217][801]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.18-18.30.16:217][801]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.18-18.30.16:217][801]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.18-18.30.16:217][801]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.18-18.30.16:218][801]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.18-18.30.16:219][801]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.18-18.30.16:219][801]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.18-18.30.16:219][801]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.18-18.30.16:219][801]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.18-18.30.18:222][801]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.18-18.30.18:222][801]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.18-18.30.18:222][801]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.18-18.30.18:222][801]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.18-18.30.18:222][801]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.18-18.30.18:222][801]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.18-18.30.18:222][801]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.18-18.30.18:261][801]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.18-18.30.18:261][801]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.18-18.30.18:261][801]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.18-18.30.18:261][801]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.18-18.30.18:261][801]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.18-18.30.18:261][801]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.18-18.30.18:261][801]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.18-18.30.18:261][801]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.18-18.30.18:261][801]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.18-18.30.18:261][801]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.18-18.30.18:264][801]LogExit: Exiting.
+[2015.12.18-18.30.18:270][801]Log file closed, 12/18/15 10:30:18
