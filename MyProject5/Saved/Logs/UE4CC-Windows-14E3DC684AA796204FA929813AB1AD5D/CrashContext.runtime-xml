@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>8156</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>MyProject5</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.10.0-2758231+++depot+UE4-Releases+4.10</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<DefaultLocale>en_US</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files (x86)/Epic Games/4.10/</RootDir>
+<MachineId>1A807D494F5B66EC1EC29184428BBC4C</MachineId>
+<EpicAccountId>db07f81b636248bea7701d154ca95474</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 869] 
+Error: Invalid (but non-null) property associated with pin; cannot get variable value
+</ErrorMessage>
+<MiscNumberOfCores>3</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>6</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>AuthenticAMD</MiscCPUVendor>
+<MiscCPUBrand>AMD FX(tm)-6300 Six-Core Processor             </MiscCPUBrand>
+<MiscPrimaryGPUBrand>NVIDIA GeForce GTX 960</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 10</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8570572800</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>392863744</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140729828941824</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>4426182656</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>4426182656</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>6328410112</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>6328410112</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>
